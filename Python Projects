@@ -1,0 +1,34 @@
+# Nav L. Volcy
+# Course: CS 1400
+# Project 1: This project is meant to calculate the three different types if tips the user gits.
+
+#Accept user input
+
+meal_cost = input("Enter the cost of the meal: $")
+meal_cost = float(meal_cost)
+
+print("Cost of the meal: $", meal_cost)
+ #The first tip calculation
+exc_per = .20
+exc_ser_tip = meal_cost * exc_per
+
+fir_total =exc_ser_tip + meal_cost
+
+print("Excellent Service tip: $", exc_ser_tip,"Total: $", fir_total)
+
+avg_per = .15
+avg_ser_tip = meal_cost * avg_per
+#the second tip calculation
+sec_total = avg_ser_tip + meal_cost
+
+print("Average service tip: $", avg_ser_tip, "Total: $", sec_total)
+#The third tip calculation
+poor_per = .10
+poor_ser_tip = meal_cost * poor_per
+
+thrd_total = poor_ser_tip + meal_cost
+
+print("Poor service tip: $", poor_ser_tip, "Total: $", thrd_total)
+
+# what I learned more from this prject was mor how to be patience with solving the issue hand. 
+#The main difficultly was that I let my fustratiion get to me therefore I couldn't come up with the proper soluiton
